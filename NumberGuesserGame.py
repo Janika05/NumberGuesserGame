@@ -22,9 +22,9 @@ if lang == 'M':
 
     while reset2:
         szam1 = int(randrange(1, 100))
-        tippek = 7
+        tippek = 8
 
-        for i in range(7):
+        for i in range(9):
             szam2 = input('A tipped: ')
 
             if szam2 == "exit":
@@ -73,9 +73,9 @@ if lang == 'E':
 
     while reset2:
         szam1 = int(randrange(1, 100))
-        tippek = 7
+        tippek = 8
 
-        for i in range(7):
+        for i in range(9):
 
             szam2 = input('your guess: ')
 
